@@ -46,11 +46,11 @@ runApp(shinyApp(
                                         tabPanel("Autocorrelation Plot",plotOutput("autocorr")),
                                         tabPanel("Gelman Diagnostic Plot",plotOutput("gelman")),
                                         tabPanel("References",h2("References"),
-                                                 p("- KÈry, M., & Royle, J. A. (2015).",em("Applied Hierarchical Modeling in Ecology: Analysis of distribution,
+                                                 p("- K√©ry, M., & Royle, J. A. (2015).",em("Applied Hierarchical Modeling in Ecology: Analysis of distribution,
 abundance and species richness in R and BUGS: Volume 1: Prelude and Static Models")," Academic Pres"),
                                                  p("- Royle, J. A., & Dorazio, R. M. (2008).", em("Hierarchical modeling and inference in ecology: the analysis
                                   of data from populations, metapopulations and communities"),". Elsevier."),
-                                                 p("- Fern·ndez-i-MarÌn, X. (2016). ggmcmc: Analysis of MCMC samples and Bayesian inference.",em("Journal of Statistical Software"),", 70(9)."),
+                                                 p("- Fern√°ndez-i-Mar√≠n, X. (2016). ggmcmc: Analysis of MCMC samples and Bayesian inference.",em("Journal of Statistical Software"),", 70(9)."),
                                                  p("- Wickham, H., & Wickham, M. H. (2007).", em("The ggplot package"),"."),
                                                  p("- Hornik, K., Leisch, F., & Zeileis, A. (2003).",em("JAGS: A program for analysis of Bayesian graphical models using Gibbs sampling"),". In Proceedings of DSC (Vol. 2, pp. 1-1).")
                                                  ))
